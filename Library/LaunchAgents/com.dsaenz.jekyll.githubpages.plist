@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dsaenz.jekyll.githubpages</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>Disabled</key>
+    <false/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/dst/Scripts/com.dsaenz.jekyll.githubpages.sh</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/dst/Library/Logs/com.dsaenz.jekyll.githubpages.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/dst/Library/Logs/com.dsaenz.jekyll.githubpages.err</string>
+    <key>Debug</key>
+    <true/>
+</dict>
+</plist>
