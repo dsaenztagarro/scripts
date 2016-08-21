@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.dsaenz.jekyll.githubpages</string>
+    <string>local.dsaenz.booklog</string>
     <key>RunAtLoad</key>
     <true/>
     <key>ProcessType</key>
@@ -12,12 +12,12 @@
     <false/>
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/dst/Scripts/com.dsaenz.jekyll.githubpages.sh</string>
+      <string>/Users/dst/Scripts/local.dsaenz.booklog.sh</string>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/dst/Library/Logs/com.dsaenz.jekyll.githubpages.out</string>
+    <string>/Users/dst/Library/Logs/local.dsaenz.booklog.out</string>
     <key>StandardErrorPath</key>
-    <string>/Users/dst/Library/Logs/com.dsaenz.jekyll.githubpages.err</string>
+    <string>/Users/dst/Library/Logs/local.dsaenz.booklog.err</string>
     <key>Debug</key>
     <true/>
 </dict>

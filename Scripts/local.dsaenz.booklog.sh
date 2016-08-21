@@ -1,3 +1,3 @@
 #!/bin/bash --login
-cd /Users/dst/Projects/booklog
+cd /Users/$USER/Projects/booklog
 jekyll serve --port 4000
