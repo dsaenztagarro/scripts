@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>local.dsaenz.booklog</string>
+    <string>org.dsaenz.booklog</string>
     <key>RunAtLoad</key>
     <true/>
     <key>ProcessType</key>
@@ -12,12 +12,12 @@
     <false/>
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/dst/Scripts/local.dsaenz.booklog.sh</string>
+      <string>/Users/dst/Scripts/org.dsaenz.booklog.sh</string>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/dst/Library/Logs/local.dsaenz.booklog.out</string>
+    <string>/Users/dst/Library/Logs/org.dsaenz.booklog.out</string>
     <key>StandardErrorPath</key>
-    <string>/Users/dst/Library/Logs/local.dsaenz.booklog.err</string>
+    <string>/Users/dst/Library/Logs/org.dsaenz.booklog.err</string>
     <key>Debug</key>
     <true/>
 </dict>

@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby-2.4.0
+require 'net/http'
+require 'uri'
+require 'json'
+
+unless RUBY_VERSION == '2.4.0'
+  puts "Run first 'rvm wrapper ruby-2.4.0'"
+  return
+end
+
+begin
+  Net::HTTP.post URI('http://localhost:5000/pull_requests'),
+    { target_dir: Dir.pwd }.to_json,
+    "Content-type" => "application/json"
+rescue Errno::ECONNREFUSED => error
+  puts "ERROR: #{error.message}"
+end

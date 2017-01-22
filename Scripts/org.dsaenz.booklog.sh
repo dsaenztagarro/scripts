@@ -1,8 +1,9 @@
 #!/bin/bash --login
+HOME="/Users/$USER"
 PROJECT_NAME="booklog"
 JEKYLL_PORT=4000
 
-BASE_DIR="/Users/$USER/Projects/$PROJECT_NAME"
+BASE_DIR="$HOME/Code/Ruby/$PROJECT_NAME"
 JEKYLL_SERVE_CMD="jekyll serve --watch --drafts --port $JEKYLL_PORT"
 
 # Stop jekyll
